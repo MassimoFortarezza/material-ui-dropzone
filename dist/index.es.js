@@ -1375,7 +1375,7 @@ var DropzoneDialog = /*#__PURE__*/function (_React$PureComponent) {
 
       if (onChange) {
         onChange(fileObjects.map(function (fileObject) {
-          return fileObject.file;
+          return fileObject;
         }));
       }
     };
@@ -1540,7 +1540,7 @@ var DropzoneDialog = /*#__PURE__*/function (_React$PureComponent) {
 
       if (onSave) {
         onSave(fileObjects.map(function (fileObject) {
-          return fileObject.file;
+          return fileObject;
         }), evt);
       }
 
