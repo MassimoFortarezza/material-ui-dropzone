@@ -33,10 +33,10 @@
     "lint:fix": "eslint src/ --fix",
     "build": "rollup -c",
     "start": "rollup -c -w",
-    "prepare": "yarn build",
+    "prepare": "npm run-script build",
     "docs:dev": "styleguidist server",
     "docs:build": "styleguidist build",
-    "predocs:deploy": "yarn docs:build",
+    "predocs:deploy": "npm docs:build",
     "docs:deploy": "gh-pages -d styleguide"
   },
   "dependencies": {
